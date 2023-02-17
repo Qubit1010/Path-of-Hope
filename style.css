@@ -151,7 +151,7 @@ header nav {
 }
 
 .content-container {
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
   margin-top: 5rem;
@@ -221,7 +221,7 @@ button img {
 /* Our Mission Section */
 
 .our-mission-section {
-  width: 80%;
+  width: 70%;
   height: 380px;
   position: relative;
   margin: auto;
@@ -276,10 +276,12 @@ button img {
   grid-template-columns: repeat(2, 1fr);
   margin-top: 5rem;
   margin-bottom: 4rem;
+  height: auto;
 }
 
 .o-v-right-block {
   background: antiquewhite;
+  height: 100%;
   padding: 2rem 2rem;
 }
 
@@ -300,6 +302,7 @@ button img {
 
 .o-v-left-block img {
   width: 100%;
+  height: 450px;
 }
 
 footer {
