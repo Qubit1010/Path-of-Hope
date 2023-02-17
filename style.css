@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Homepage */
+/* Hero Section */
+.hero-section {
+  height: 700px;
+  position: relative;
+  background-image: url("./assets/hero-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+header {
+  position: relative;
+  z-index: 200;
+}
+
+header nav {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section-content {
+  width: 60%;
+  margin: auto;
+  padding: 8rem 0rem;
+  position: relative;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-heading-block {
+  display: flex;
+}
+
+.hero-heading-block h1 {
+  background-color: #db0c64;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+  margin-right: 0.6rem;
+}
+
+.hero-heading-block h1:nth-of-type(2) {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  background-color: white;
+  color: black;
+}
+
+.hero-section-content p {
+  width: 80%;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.hero-section-content button {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 0.125rem;
+}
+
+.background-img-gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.8;
+  background: linear-gradient(
+    90deg,
+    rgb(0 0 0) 0%,
+    rgb(3 3 3 / 38%) 25%,
+    rgb(0 0 0 / 10%) 60%,
+    rgb(7 7 7) 100%
+  );
+  z-index: 100;
+}
+
+/* Our Work Section */
+
+.our-work-section h1 {
+  margin-top: 6rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.headling-line-block {
+  display: flex;
+  margin: 1rem 0rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.headling-line-block div {
+  border-bottom: 5px solid #db0c64;
+  width: 35px;
+  margin-left: 0.3rem;
+}
+
+.headling-line-block div:nth-of-type(1) {
+  margin-left: 0rem;
+}
+
+.content-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 5rem;
+  text-align: justify;
+}
+
+.content-container .left-block {
+  width: 50%;
+}
+
+.content-container .left-block h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.content-container .right-block {
+  width: 50%;
+  text-align: center;
+}
+
+.content-container .right-block img {
+  width: 450px;
+  height: 450px;
+  border-radius: 1.5rem;
+}
+
+.bullet-point-container {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.b-p-left-block {
+  margin-left: 8rem;
+}
+
+.bullet-point-block {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.bullet-point-block img {
+  width: 15px;
+  height: 15px;
+  margin-right: 1rem;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  background-color: #db0c64;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 0.125rem;
+}
+
+button img {
+  width: 10px;
+  height: 10px;
+  margin-left: 0.5rem;
+}
+
+/* Our Mission Section */
+
+.our-mission-section {
+  width: 80%;
+  height: 380px;
+  position: relative;
+  margin: auto;
+  background-color: #db0c66;
+  border-radius: 1rem;
+  color: white;
+  margin-top: 8rem;
+  padding-top: 2rem;
+}
+
+.mission-img-block {
+  position: absolute;
+  top: -50px;
+  left: 40px;
+}
+
+.mission-img-block img {
+  width: 320px;
+  height: 380px;
+  border-radius: 1.3rem;
+}
+
+.mission-content-block {
+  position: relative;
+  width: 55%;
+  margin-left: auto;
+}
+
+.mission-content-block h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mission-content-block p {
+  width: 80%;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mission-content-block button {
+  background-color: white;
+  color: #db0c64;
+}
+
+/* Our Vision Section */
+.our-vision-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.o-v-right-block {
+  background: antiquewhite;
+  padding: 2rem 2rem;
+}
+
+.o-v-right-block h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 2rem;
+}
+
+.o-v-right-block p {
+  width: 80%;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.o-v-left-block img {
+  width: 100%;
+}
+
+footer {
+  padding: 1rem 0rem;
+  background: #db0c64;
+  color: white;
+  text-align: center;
+}
