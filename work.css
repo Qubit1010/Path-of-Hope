@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header */
+header {
+  position: relative;
+  z-index: 200;
+}
+
+header nav {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: underline;
+  text-decoration-color: #db0c64;
+  text-decoration-thickness: 3px;
+  color: black;
+}
+
+/* Our Work Section */
+.our-work-main-section {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  height: 95vh;
+  margin-bottom: 5rem;
+
+}
+
+/* Left Block */
+.our-work-main-section .left-block {
+  background-color: antiquewhite;
+  padding-top: 5rem;
+  padding-left: 5rem;
+}
+
+.our-work-main-section .left-block h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.781);
+  margin-bottom: 3rem;
+}
+
+.our-work-main-section .left-block p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.774);
+  margin-bottom: 3rem;
+}
+
+/* Right Block */
+.our-work-main-section .right-block {
+  background-color: #db0c66;
+  padding-top: 13rem;
+  padding-left: 3rem;
+  color: white;
+}
+
+.our-work-main-section .right-block h2 {
+  /* width: 100%; */
+  font-size: 2.5rem;
+  /* text-align: center; */
+  margin-bottom: 3rem;
+}
+
+.our-work-main-section .right-block p {
+  width: 90%;
+  /* margin: auto; */
+  /* text-align: center; */
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+/* Footer */
+footer {
+  padding: 1rem 0rem;
+  background: #db0c64;
+  color: white;
+  text-align: center;
+}

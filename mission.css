@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header */
+header {
+  position: relative;
+  z-index: 200;
+}
+
+header nav {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: underline;
+  text-decoration-color: #db0c64;
+  text-decoration-thickness: 3px;
+  color: black;
+}
+
+/* Our Mission Section */
+/* Top Block */
+.our-mission-main-section .top-block,
+.our-mission-main-section .bottom-block {
+  width: 85%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.our-mission-main-section .t-heading-block,
+.our-mission-main-section .b-heading-block {
+  width: 100%;
+  text-align: center;
+}
+
+.our-mission-main-section .top-block h1{
+  font-size: 3rem;
+}
+
+.our-mission-main-section .top-block h1 span {
+  font-size: 2.5rem;
+  color: #db0c64;
+}
+
+.t-para-block {
+  align-self: center;
+  padding-left: 3rem;
+}
+
+.t-para-block p, .b-para-block p {
+  width: 90%;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+/* Middle Block */
+.middle-block img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+
+/* Bottom Block */
+.bottom-block {
+  border-top: 2px solid rgba(0, 0, 0, 0.692);
+    padding-top: 2rem;
+}
+
+.our-mission-main-section .bottom-block h1 {
+  width: 80%;
+  font-size: 1.8rem;
+}
+
+.b-para-block h3 {
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.808);
+  margin-bottom: 3rem;
+}
+
+
+/* Footer */
+footer {
+  padding: 1rem 0rem;
+  background: #db0c64;
+  color: white;
+  text-align: center;
+}
