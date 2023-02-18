@@ -268,10 +268,9 @@ header nav {
 
 .mission-content-block p {
   width: 80%;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   text-align: justify;
-  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -306,7 +305,7 @@ header nav {
 
 .o-v-right-block p {
   width: 80%;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   text-align: justify;
   margin-top: 2rem;
