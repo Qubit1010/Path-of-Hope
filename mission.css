@@ -110,6 +110,38 @@ header nav {
   margin-bottom: 3rem;
 }
 
+/* Contact Page Section */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 4.5rem 0rem;
+  margin-bottom: 2rem;
+  margin-top: 12rem;
+  border-top: solid 12px #db0c66c0;
+  border-bottom: solid 10px #3e3d3c;
+}
+
+.contact-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #db0c64;
+}
+
+.contact-container a {
+  background-color: #db0c64;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 0.125rem;
+  margin-top: 1rem;
+}
 
 /* Footer */
 footer {
