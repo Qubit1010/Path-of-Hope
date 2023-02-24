@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  height: 100vh;
+}
+
+header {
+  position: relative;
+  z-index: 200;
+}
+
+header nav {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: underline;
+  text-decoration-color: #db0c64;
+  text-decoration-thickness: 3px;
+  color: rgb(0, 0, 0);
+}
+
+/* Upcoming Section */
+.upcoming-event-section h1 {
+  margin-top: 6rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.headling-line-block {
+  display: flex;
+  margin: 1rem 0rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.headling-line-block div {
+  border-bottom: 5px solid #db0c64;
+  width: 35px;
+  margin-left: 0.3rem;
+}
+
+.headling-line-block div:nth-of-type(1) {
+  margin-left: 0rem;
+}
+
+.upcoming-event-section {
+  width: 80%;
+  margin: auto;
+}
+
+.content-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  column-gap: 50px;
+  margin-top: 4rem;
+}
+
+.content-container .image-block img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.info-block h2 {
+  margin: 1rem 0rem;
+}
+
+.date-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.date-container .date-right-block,
+.date-container .date-left-block {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.date-right-block img,
+.date-left-block img {
+  width: 20px;
+  margin-right: 0.5rem;
+}
+
+.form-block {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.form-field {
+  width: 70%;
+}
+
+.form-field input {
+  width: 100%;
+  height: 40px;
+  background-color: #db0c6634;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.form-block button {
+  width: 30%;
+  background-color: #db0c64;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 1s;
+}
+
+
+footer {
+  padding: 1rem 0rem;
+  background: #db0c64;
+  color: white;
+  text-align: center;
+}
