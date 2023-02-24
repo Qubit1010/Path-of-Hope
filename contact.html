@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contact.css" />
+    <script src="./script.js" defer></script>
+    <title>Path Of Hope || Contact</title>
+  </head>
+  <body>
+    <!-- Header  -->
+    <header>
+      <nav>
+        <!-- Logo Block -->
+        <div>
+          <a href="index.html">
+            <img
+              class="logo-img"
+              src="./assets/path_of_hope_logo-removebg.png"
+              alt="logo"
+            />
+          </a>
+        </div>
+        <!-- Nav Links Block -->
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Our Work</a></li>
+            <li><a href="">Get Involved</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <section class="contact-main-section">
+        <h1>
+          Love to hear from you, Get in touch
+          <span><img src="./assets/wave.png" alt="" /></span>
+        </h1>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+          <form action="" onsubmit="submitHandler(event)" class="contant-form">
+            <!-- Top Form Block -->
+            <div class="form-top-block">
+              <!-- Each Field -->
+              <div class="form-field">
+                <label for="name">Your name</label>
+                <input type="text" id="name" placeholder="John Doe" required  />
+              </div>
+
+              <div class="form-field">
+                <label for="email">Your email</label>
+                <input type="email" id="email" placeholder="123@xyz.com" required />
+              </div>
+            </div>
+            <!-- Bottom Form Block -->
+            <div class="form-bottom-block">
+              <!-- Each Field -->
+              <div class="form-field">
+                <label for="email">Message</label>
+                <textarea
+                name=""
+                id="message"
+                cols="10"
+                rows="10"
+                placeholder="Tell us about yourself"
+                required
+              ></textarea>
+              </div>
+            </div>
+            <!-- Form Submit Button -->
+            <button>Submit</button>
+          </form>
+        </section>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <h6>© 2023 Path Of Hope, All rights reserved.</h6>
+    </footer>
+  </body>
+</html>
