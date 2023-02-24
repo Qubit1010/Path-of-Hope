@@ -1,7 +1,9 @@
 // Contact Form Data Integration
+const contactForm = document.querySelector(".contant-form"); 
 const formName = document.querySelector("#name");
 const formEmail = document.querySelector('#email')
 const formMessage = document.querySelector('#message')
+const formPopup = document.querySelector('.form-pop-up')
 
 let nameValue = "";
 let emailValue = "";
@@ -67,7 +69,6 @@ function messageUpdateValue(e) {
   return messageValue
 }
 
-
 function submitHandler(event) {
   event.preventDefault();
   
@@ -81,17 +82,13 @@ function submitHandler(event) {
   
   formDataHandler(formData);
   
-  // setIsSuccess(true);
-  
-  // setTimeout(() => {
-    //   setIsSuccess(false);
-    // }, "4000");
-    
-    // }
-    
-    console.log(formData);
+  contactForm.style.display = "none";  
+  formPopup.style.display = "block";
 }
   
+console.log(contactForm)
+console.log(formPopup)
+
   
 formName.addEventListener('input', nameUpdateValue);
 formEmail.addEventListener('input', emailUpdateValue);
