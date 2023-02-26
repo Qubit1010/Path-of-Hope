@@ -134,6 +134,96 @@ header nav {
   margin-top: 1rem;
 }
 
+/* Upcoming Section */
+.upcoming-event-section h1,
+.previous-event-section h1 {
+  margin-top: 6rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.headling-line-block {
+  display: flex;
+  margin: 1rem 0rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.headling-line-block div {
+  border-bottom: 5px solid #db0c64;
+  width: 35px;
+  margin-left: 0.3rem;
+}
+
+.headling-line-block div:nth-of-type(1) {
+  margin-left: 0rem;
+}
+
+.upcoming-event-section,
+.previous-event-section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10rem;
+}
+
+.content-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  column-gap: 50px;
+  row-gap: 70px;
+  margin-top: 4rem;
+}
+
+.previous-event-section .content-container {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.content-container .image-block img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.info-block h2 {
+  margin: 1rem 0rem;
+}
+
+.date-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.date-container .date-right-block,
+.date-container .date-left-block {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.date-right-block img,
+.date-left-block img {
+  width: 20px;
+  margin-right: 0.5rem;
+}
+
+
+.previous-event-section button {
+  background-color: #db0c64;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: all 1s;
+}
+
+.previous-event-section a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Footer */
 footer {
   padding: 1rem 0rem;
