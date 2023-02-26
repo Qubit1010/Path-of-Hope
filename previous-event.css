@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  /* height: 100vh; */
+}
+
+header {
+  position: relative;
+  z-index: 200;
+}
+
+header nav {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: underline;
+  text-decoration-color: #db0c64;
+  text-decoration-thickness: 3px;
+  color: rgb(0, 0, 0);
+}
+
+.date-container {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.date-container .date-right-block,
+.date-container .date-left-block {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.date-right-block img,
+.date-left-block img {
+  width: 20px;
+  margin-right: 0.5rem;
+}
+
+.previous-event-section {
+  width: 90%;
+  margin: auto;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.previous-event-section h1 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.previous-event-section h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.image-block img {
+  width: 90%;
+  height: 700px;
+  object-fit: cover;
+  margin: 2rem 0rem;
+}
+
+.info-block {
+  width: 55%;
+  margin: auto;
+}
+
+.info-block p {
+  /* width: 80%; */
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  text-align: justify;
+  margin: 4rem 0rem;
+}
+
+
+
+footer {
+  padding: 1rem 0rem;
+  background: #db0c64;
+  color: white;
+  text-align: center;
+}

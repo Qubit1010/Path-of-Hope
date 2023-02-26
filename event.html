@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./event.css" />
+    <script src="./eventScript.js" defer></script>
     <title>Path Of Hope || Event</title>
   </head>
   <body>
@@ -26,8 +27,8 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="work.html">Our Work</a></li>
-            <li><a href="">Get Involved</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="event.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -66,7 +67,9 @@
                 <!-- Date-Left-Block -->
                 <div class="date-left-block">
                   <img src="./assets/user.png" alt="" />
-                  <h5>John Doe</h5>
+                  <h5>People Registered</h5>
+                  <h5 class="first-registered-number">0 </h5>
+                  <h5>/ 10</h5>
                 </div>
               </div>
               <!-- para -->
@@ -76,14 +79,25 @@
                 those facing economic, social, and health-related challenges.
               </p>
               <!-- Event-Form-Block -->
-              <form action="event-form">
+              <form action="event-form" class="first-event-form" onsubmit="firstSubmitHandler(event)" >
                 <div class="form-block">
                   <div class="form-field">
-                    <input type="email" id="email" placeholder="Your Email" required />
+                    <input
+                      type="email"
+                      id="first-email"
+                      placeholder="Your Email"
+                      required
+                    />
                   </div>
                   <button>Subscribe</button>
                 </div>
               </form>
+              <div class="first-pop-up">
+                <h1>Thanks for registering</h1>
+              </div>
+              <div class="first-max-pop-up">
+                <h1>Entry Maxed Out</h1>
+              </div>
             </div>
           </div>
 
@@ -106,7 +120,9 @@
                 <!-- Date-Left-Block -->
                 <div class="date-left-block">
                   <img src="./assets/user.png" alt="" />
-                  <h5>John Doe</h5>
+                  <h5>People Registered</h5>
+                  <h5 class="second-registered-number">0 </h5>
+                  <h5>/ 10</h5>
                 </div>
               </div>
               <!-- para -->
@@ -116,18 +132,144 @@
                 those facing economic, social, and health-related challenges.
               </p>
               <!-- Event-Form-Block -->
-              <form action="event-form">
+              <form action="event-form" class="second-event-form" onsubmit="secondSubmitHandler(event)">
                 <div class="form-block">
                   <div class="form-field">
-                    <input type="email" id="email" placeholder="Your Email" required />
+                    <input
+                      type="email"
+                      id="second-email"
+                      placeholder="Your Email"
+                      required
+                    />
                   </div>
                   <button>Subscribe</button>
                 </div>
               </form>
+              <div class="second-pop-up">
+                <h1>Thanks for registering</h1>
+              </div>
+              <div class="second-max-pop-up">
+                <h1>Entry Maxed Out</h1>
+              </div>
             </div>
           </div>
         </div>
+        <!--  -->
+      </section>
 
+      <!-- Previous Event Section -->
+      <section id="previous-event" class="previous-event-section">
+        <!-- Heading -->
+        <h1>Previous Events</h1>
+        <!-- Heading Line -->
+        <div class="headling-line-block">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <!-- Our Section Content Container -->
+        <div class="content-container">
+          <!-- Each Block -->
+          <div class="each-block">
+            <!-- Image Block-->
+            <div class="image-block">
+              <img src="./assets/pexels-min-an-853168.jpg" alt="" />
+            </div>
+            <!-- Info Block -->
+            <div class="info-block">
+              <h2>Charity Meet 2022</h2>
+              <!-- Date-Container -->
+              <div class="date-container">
+                <!-- Date-Right-Block -->
+                <div class="date-right-block">
+                  <img src="./assets/calendar.png" alt="" />
+                  <h5>2022/7/5</h5>
+                </div>
+                <!-- Date-Left-Block -->
+                <div class="date-left-block">
+                  <img src="./assets/user.png" alt="" />
+                  <h5>John Doe</h5>
+                </div>
+              </div>
+              <!-- para -->
+              <p>
+                A non-profit organization based in Saudi Arabia. Our mission is
+                to empower individuals and communities by providing support to
+                those facing economic, social, and health-related challenges.
+              </p>
+              <!-- Button -->
+              <button><a href="previous-event.html">Read More</a></button>
+            </div>
+          </div>
+
+          <!-- Each Block -->
+          <div class="each-block">
+            <!-- Image Block-->
+            <div class="image-block">
+              <img src="./assets/pexels-min-an-1157557.jpg" alt="" />
+            </div>
+            <!-- Info Block -->
+            <div class="info-block">
+              <h2>Public Welfare Meet 2022</h2>
+              <!-- Date-Container -->
+              <div class="date-container">
+                <!-- Date-Right-Block -->
+                <div class="date-right-block">
+                  <img src="./assets/calendar.png" alt="" />
+                  <h5>2022/5/7</h5>
+                </div>
+                <!-- Date-Left-Block -->
+                <div class="date-left-block">
+                  <img src="./assets/user.png" alt="" />
+                  <h5>John Doe</h5>
+                </div>
+              </div>
+              <!-- para -->
+              <p>
+                A non-profit organization based in Saudi Arabia. Our mission is
+                to empower individuals and communities by providing support to
+                those facing economic, social, and health-related challenges.
+              </p>
+              <!-- Button -->
+              <button><a href="previous-event.html">Read More</a></button>
+            </div>
+          </div>
+
+          <!-- Each Block -->
+          <div class="each-block">
+            <!-- Image Block-->
+            <div class="image-block">
+              <img src="./assets/pexels-min-an-1157557.jpg" alt="" />
+            </div>
+            <!-- Info Block -->
+            <div class="info-block">
+              <h2>Public Welfare Meet 2022</h2>
+              <!-- Date-Container -->
+              <div class="date-container">
+                <!-- Date-Right-Block -->
+                <div class="date-right-block">
+                  <img src="./assets/calendar.png" alt="" />
+                  <h5>2022/5/7</h5>
+                </div>
+                <!-- Date-Left-Block -->
+                <div class="date-left-block">
+                  <img src="./assets/user.png" alt="" />
+                  <h5>John Doe</h5>
+                </div>
+              </div>
+              <!-- para -->
+              <p>
+                A non-profit organization based in Saudi Arabia. Our mission is
+                to empower individuals and communities by providing support to
+                those facing economic, social, and health-related challenges.
+              </p>
+              <!-- Button -->
+              <button><a href="previous-event.html">Read More</a></button>
+            </div>
+          </div>
+        </div>
+        <!--  -->
       </section>
     </main>
     <!-- Footer -->

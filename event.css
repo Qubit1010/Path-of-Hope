@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 header {
@@ -53,7 +53,8 @@ header nav {
 }
 
 /* Upcoming Section */
-.upcoming-event-section h1 {
+.upcoming-event-section h1,
+.previous-event-section h1 {
   margin-top: 6rem;
   font-size: 2rem;
   text-align: center;
@@ -76,9 +77,11 @@ header nav {
   margin-left: 0rem;
 }
 
-.upcoming-event-section {
+.upcoming-event-section,
+.previous-event-section {
   width: 80%;
   margin: auto;
+  margin-bottom: 10rem;
 }
 
 .content-container {
@@ -88,6 +91,10 @@ header nav {
   margin: auto;
   column-gap: 50px;
   margin-top: 4rem;
+}
+
+.previous-event-section .content-container {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .content-container .image-block img {
@@ -148,6 +155,46 @@ header nav {
   transition: all 1s;
 }
 
+.previous-event-section button {
+  background-color: #db0c64;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: all 1s;
+}
+
+.previous-event-section a {
+  text-decoration: none;
+  color: white;
+}
+
+.first-pop-up,
+.first-max-pop-up,
+.second-pop-up,
+.second-max-pop-up {
+  display: none;
+}
+
+.first-pop-up h1,
+.second-pop-up h1,
+.first-max-pop-up h1,
+.second-max-pop-up h1 {
+  font-size: 2rem;
+  text-align: center;
+  background-color: #db0c6634;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.first-registered-number,
+.second-registered-number {
+  margin-left: 0.7rem;
+  margin-right: 0.2rem;
+}
 
 footer {
   padding: 1rem 0rem;
