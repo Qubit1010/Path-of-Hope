@@ -75,6 +75,7 @@ header nav {
   margin: auto;
   padding-top: 4rem;
   text-align: center;
+  margin-bottom: 6rem;
 }
 
 .previous-event-section h1 {
@@ -108,7 +109,41 @@ header nav {
   margin: 4rem 0rem;
 }
 
+.google-form-block h1 {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
 
+.google-form-block h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.google-form-block img {
+  width: 100%;
+}
+
+.google-form-block p {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.google-form-block button {
+  background-color: #db0c64;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 1s;
+}
+
+.google-form-block button a {
+  color: white;
+  text-decoration: none;
+}
 
 footer {
   padding: 1rem 0rem;

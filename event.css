@@ -123,6 +123,26 @@ header nav {
   margin-right: 0.5rem;
 }
 
+.info-block p {
+  margin-bottom: 1rem;
+}
+
+.info-block button {
+  background-color: #db0c64;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 1s; 
+}
+
+.info-block button a {
+  text-decoration: none;
+  color: white;
+}
+
 .form-block {
   display: flex;
   margin-top: 2rem;
