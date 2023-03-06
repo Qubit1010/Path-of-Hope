@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="./indexScript.js" defer></script>
     <title>Path Of Hope || Home</title>
   </head>
   <body>
@@ -28,9 +29,41 @@
             <div class="nav-links">
               <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="work.html">Our Work</a></li>
-                <li><a href="event.html">Get Involved</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="work-link">
+                  <a href="work.html">Our Work</a>
+                  <div class="work-link-arrow">
+                    <img
+                      src="./assets/arrow-down-sign-to-navigate.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="work-link-block">
+                    <ul>
+                      <li><a href="sports-event.html">Sports Event</a></li>
+                      <li><a href="bake-event.html">Bake Sale</a></li>
+                      <li><a href="winter-event.html">Winter Clothing Event</a></li>
+                      <li><a href="ramadan-event.html">Ramadan Food Drive Event</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="event-link">
+                  <a href="event.html">Get Involved</a>
+                  <div class="event-link-arrow">
+                    <img
+                      src="./assets/arrow-down-sign-to-navigate.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="event-link-block">
+                    <ul>
+                      <li><a href="tablets.html">Tablets for Transformation</a></li>
+                      <li><a href="down-syndrome.html">Kids with Down Syndrome</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="contact.html">Contact </a></li>
               </ul>
             </div>
           </nav>
@@ -44,9 +77,7 @@
             <h1>Innovation</h1>
           </div>
           <!-- Hero-Content-Paragraph -->
-          <p>
-            We pave the path, you create your destiny.
-          </p>
+          <p>We pave the path, you create your destiny.</p>
           <!-- Hero-Content-Button -->
           <a href="event.html" class="hero-btn">Events</a>
         </div>
@@ -122,7 +153,7 @@
       </section>
 
       <!-- Our Mission Section -->
-      <section class="our-mission-section">
+      <section class="our-mission-section" id="mission">
         <!-- Mission Image Block -->
         <div class="mission-img-block">
           <img src="./assets/our-mission-img.jpg" alt="mission-image" />
@@ -148,7 +179,7 @@
       </section>
 
       <!-- Our Vision Section -->
-      <section class="our-vision-section">
+      <section class="our-vision-section" id="vision">
         <!-- Our Vision Right Block -->
         <div class="o-v-left-block">
           <img src="./assets/Vision-Img.jpg" alt="vision-image" />
@@ -164,7 +195,10 @@
             change, and where individuals have access to the resources and
             support they need to thrive.
           </p>
-          <a href="vision.html" class="read-more-btn">Read More<span><img src="./assets/right-arrow.png" alt="button-image"/></span>
+          <a href="vision.html" class="read-more-btn"
+            >Read More<span
+              ><img src="./assets/right-arrow.png" alt="button-image"
+            /></span>
           </a>
         </div>
       </section>

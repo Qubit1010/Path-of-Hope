@@ -50,7 +50,7 @@ header nav {
 .nav-links ul li {
   font-weight: bold;
   text-transform: uppercase;
-  margin-right: 1.5rem;
+  margin-right: 3rem;
 }
 
 .nav-links a {
@@ -58,6 +58,50 @@ header nav {
   text-decoration-color: #db0c64;
   text-decoration-thickness: 3px;
   color: white;
+  transition: all 1s;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 3px;
+  color: #db0c64 ;
+}
+
+.work-link, .event-link {
+  position: relative;
+}
+
+.work-link-block, .event-link-block {
+  display: none;
+  margin-top: 1rem;
+  transition: all 1s;
+}
+
+.work-link-block ul li, .event-link-block ul li{
+  margin-bottom: 0.6rem;
+}
+
+.work-link-block ul li a, .event-link-block ul li a {
+  font-size: 0.7rem;
+}
+
+.work-link-arrow, .event-link-arrow {
+  position: absolute;
+    top: 2px;
+    right: -25px;
+}
+
+.work-link-arrow img, .event-link-arrow img {
+  width: 16px;
+}
+
+.work-link-block ul, .event-link-block ul {
+  flex-direction: column;
+}
+
+.link-block-display {
+  display: block;
 }
 
 .hero-section-content {
@@ -238,8 +282,9 @@ header nav {
   background-color: #db0c66;
   border-radius: 1rem;
   color: white;
-  margin-top: 8rem;
+  margin-top: 15rem;
   padding-top: 2rem;
+  margin-bottom: 15rem;
 }
 
 .mission-img-block {

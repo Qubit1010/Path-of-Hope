@@ -50,6 +50,14 @@ header nav {
   text-decoration-color: #db0c64;
   text-decoration-thickness: 3px;
   color: rgb(0, 0, 0);
+  transition: all 1s;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 3px;
+  color: #db0c64 ;
 }
 
 .date-container {

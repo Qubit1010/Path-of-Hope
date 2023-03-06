@@ -19,7 +19,7 @@ let secondInputValue = "";
 // First Input Event Form Data Post Function
 async function firstFormDataHandler(form) {
   await fetch(
-    "https://website-test-b9834-default-rtdb.firebaseio.com/event-first-input.json",
+    "https://path-of-hope-default-rtdb.firebaseio.com/upcoming-event-first-input.json",
     {
       method: "POST",
       body: JSON.stringify(form),
@@ -34,7 +34,7 @@ async function firstFormDataHandler(form) {
 async function firstGetFormDataHandler() {
   try {
     const response = await fetch(
-      "https://website-test-b9834-default-rtdb.firebaseio.com/event-first-input.json"
+      "https://path-of-hope-default-rtdb.firebaseio.com/upcoming-event-first-input.json"
     );
     if (!response.ok) {
       throw new Error("Something went wrong!");
@@ -91,7 +91,7 @@ function firstSubmitHandler(event) {
 // Second Input Event Form Data Post Function
 async function secondFormDataHandler(form) {
   await fetch(
-    "https://website-test-b9834-default-rtdb.firebaseio.com/event-second-input.json",
+    "https://path-of-hope-default-rtdb.firebaseio.com/upcoming-event-second-input.json",
     {
       method: "POST",
       body: JSON.stringify(form),
@@ -106,7 +106,7 @@ async function secondFormDataHandler(form) {
 async function secondGetFormDataHandler() {
   try {
     const response = await fetch(
-      "https://website-test-b9834-default-rtdb.firebaseio.com/event-second-input.json"
+      "https://path-of-hope-default-rtdb.firebaseio.com/upcoming-event-second-input.json"
     );
     if (!response.ok) {
       throw new Error("Something went wrong!");

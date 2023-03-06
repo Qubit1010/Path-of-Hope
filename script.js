@@ -13,7 +13,7 @@ let messageValue = "";
 // Contact Form Data Post Function
 async function formDataHandler(form) {
   await fetch(
-    "https://website-test-b9834-default-rtdb.firebaseio.com/contact-data.json",
+    "https://path-of-hope-default-rtdb.firebaseio.com/contact-data.json",
     {
       method: "POST",
       body: JSON.stringify(form),
@@ -28,7 +28,7 @@ async function formDataHandler(form) {
 async function getFormDataHandler() {
   try {
     const response = await fetch(
-      "https://website-test-b9834-default-rtdb.firebaseio.com/contact-data.json"
+      "https://path-of-hope-default-rtdb.firebaseio.com/contact-data.json"
     );
     if (!response.ok) {
       throw new Error("Something went wrong!");
