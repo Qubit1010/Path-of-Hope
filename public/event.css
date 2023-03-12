@@ -57,7 +57,7 @@ header nav {
   text-decoration: underline;
   text-decoration-color: black;
   text-decoration-thickness: 3px;
-  color: #db0c64 ;
+  color: #db0c64;
 }
 
 /* Upcoming Section */
@@ -105,9 +105,15 @@ header nav {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.content-container .image-block {
+  height: 300px;
+}
+
 .content-container .image-block img {
   width: 100%;
   border-radius: 1rem;
+  height: 100%;
+  object-fit: cover;
 }
 
 .info-block h2 {
@@ -143,7 +149,7 @@ header nav {
   padding: 0.7rem 1.5rem;
   font-size: 0.9rem;
   font-weight: 600;
-  transition: all 1s; 
+  transition: all 1s;
 }
 
 .info-block button a {
@@ -224,7 +230,15 @@ header nav {
   margin-right: 0.2rem;
 }
 
+.footer-insta-link {
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem 0rem;
   background: #db0c64;
   color: white;

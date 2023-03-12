@@ -55,10 +55,10 @@ header nav {
   color: #db0c64 ;
 }
 
-/* Our Vision Section */
+/* Our Mission Section */
 /* Top Block */
-.our-vision-main-section .top-block,
-.our-vision-main-section .bottom-block {
+.our-mission-main-section .top-block,
+.our-mission-main-section .bottom-block {
   width: 85%;
   margin: auto;
   margin-top: 5rem;
@@ -67,17 +67,17 @@ header nav {
   grid-template-columns: 1fr 1fr;
 }
 
-.our-vision-main-section .t-heading-block,
-.our-vision-main-section .b-heading-block {
+.our-mission-main-section .t-heading-block,
+.our-mission-main-section .b-heading-block {
   width: 100%;
   text-align: center;
 }
 
-.our-vision-main-section .top-block h1{
+.our-mission-main-section .top-block h1{
   font-size: 2.7rem;
 }
 
-.our-vision-main-section .top-block h1 span {
+.our-mission-main-section .top-block h1 span {
   color: #db0c64;
 }
 
@@ -106,7 +106,7 @@ header nav {
     padding-top: 2rem;
 }
 
-.our-vision-main-section .bottom-block h1 {
+.our-mission-main-section .bottom-block h1 {
   width: 80%;
   font-size: 1.8rem;
 }
@@ -151,7 +151,15 @@ header nav {
 }
 
 /* Footer */
+.footer-insta-link {
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem 0rem;
   background: #db0c64;
   color: white;

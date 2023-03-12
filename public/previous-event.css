@@ -153,7 +153,15 @@ header nav {
   text-decoration: none;
 }
 
+.footer-insta-link {
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem 0rem;
   background: #db0c64;
   color: white;

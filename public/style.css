@@ -65,38 +65,45 @@ header nav {
   text-decoration: underline;
   text-decoration-color: white;
   text-decoration-thickness: 3px;
-  color: #db0c64 ;
+  color: #db0c64;
 }
 
-.work-link, .event-link {
+.work-link,
+.event-link {
   position: relative;
 }
 
-.work-link-block, .event-link-block {
+.work-link-block,
+.event-link-block {
   display: none;
   margin-top: 1rem;
   transition: all 1s;
 }
 
-.work-link-block ul li, .event-link-block ul li{
+.work-link-block ul li,
+.event-link-block ul li {
   margin-bottom: 0.6rem;
 }
 
-.work-link-block ul li a, .event-link-block ul li a {
+.work-link-block ul li a,
+.event-link-block ul li a {
   font-size: 0.7rem;
 }
 
-.work-link-arrow, .event-link-arrow {
+.work-link-arrow,
+.event-link-arrow {
   position: absolute;
-    top: 2px;
-    right: -25px;
+  top: 2px;
+  right: -25px;
 }
 
-.work-link-arrow img, .event-link-arrow img {
+.work-link-arrow img,
+.event-link-arrow img {
   width: 16px;
 }
 
-.work-link-block ul, .event-link-block ul {
+.work-link-block ul,
+.event-link-block ul {
   flex-direction: column;
 }
 
@@ -229,6 +236,7 @@ header nav {
   width: 450px;
   height: 450px;
   border-radius: 1.5rem;
+  object-fit: cover;
 }
 
 .bullet-point-container {
@@ -367,7 +375,15 @@ header nav {
   object-fit: cover;
 }
 
+.footer-insta-link {
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem 0rem;
   background: #db0c64;
   color: white;
