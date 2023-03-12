@@ -11,3 +11,4 @@ workArrow.addEventListener("click", () => {
 eventArrow.addEventListener("click", () => {
   eventLinkBlock.classList.toggle("link-block-display");
 });
+

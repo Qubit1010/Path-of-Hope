@@ -15,7 +15,7 @@ body {
 .hero-section {
   height: 700px;
   position: relative;
-  background-image: url("./assets/hero-img.jpg");
+  background-image: url("../assets/hero-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
