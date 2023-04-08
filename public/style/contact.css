@@ -58,7 +58,7 @@ header nav {
 /* main-section */
 .contact-main-section {
   width: 75%;
-  height: 80vh;
+  /* height: 80vh; */
   padding: 4rem 6rem;
   margin: auto;
   margin-bottom: 5rem;
@@ -167,9 +167,4 @@ footer {
   background: #db0c64;
   color: white;
   text-align: center;
-}
-
-h1{
-  background-color: ;
-  
 }
